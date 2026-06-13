@@ -1,0 +1,21 @@
+steps to use git in your workspace/ folder / project 
+1)use GIT INIT to add the git or implement in your workspace.It will create a folder that is invsible if you want to see it you have to use command ls -a 
+2)onces the new repo is created using the GIT INIT command then you have to add the files into the repo by using GIT ADD FILENAME  command this will add files for tracking or you can say unstaged changes too add all file from the workspace you just have to add dot (.) after the command 
+3)then commit the changes means they have been recorded commad for commit is GIT COMMIT and if you want to display message then -m is used and too commit all unstagefiles onces then you can do (git commit -am 'msg')
+4)To check  which files has been not commited then you can use  GIT STATUS commands. 
+5)GIT LOG: use to check the details of the commits shows the time, date and owner 
+6)GIT DIFF: use to compore the chnages happen from pervious and other onces 
+7)GIT checkout: it use to retrive the pervious version of your file!
+8)first you have to add 
+9)(HEAD -> master): it  means that it is on the top of the git list.
+10)Now you have to add the files in the repository of git hub you should use this 
+git remote add origin url(your repository url)
+And then to add use this commant:-
+git push -u origin main
+
+11)To remove the files from the statging area you must used 
+git rm -r --cached <folder_path> 
+officially 
+git rm --cached  -r .
+13)to igoner a spcific file from the folder you just have to create a file namely gitignore same to same with strickly in lowercase after creating you must add files names that you don't want add in staging area 
+Note: While using node or anything else you should go to github igoner official side and check for the files name in it 
